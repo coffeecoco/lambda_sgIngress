@@ -16,4 +16,4 @@ The Lambda function that integrates with API Gateway. Inherits VPC and Security 
 
 Local script used to assume an IAM role with API Gateway invocation permissions. Uses IAM MFA for initial assume role request. Inherits temporary credentials from assumed role, which are used to sign a GET request sent to the API Gateway endpoint that fires off the Lambda function above.
 
-More information available on [my blog](http://natemitchell.co.za/modifying-ec2-security-groups-with-lambda-using-iam-mfa/)
+More information available on [my blog](http://blog.n473.me/post/modifying-ec2-security-groups-with-lambda-using-iam-mfa/)
